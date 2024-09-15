@@ -4,6 +4,7 @@ this contains the code written for the MSc Bioinformatics course - Biological Co
 this program takes a vcf file, a gff file, and a genome fasta file. for every variant listed in the vcf file, it uses the genome fasta files (sequence(s)), and the genome annotation file (gff), to calculate if the variant is non-coding, synonymous, or non-synonymous, and reports this information and other relevant data in an output file. it also creates a barplot of each variant type, and a log file showing progress of the program.
 
 usage – python3 script.py vcfFile.vcf gffFile.gff fastaFile.fasta 
+
 for detailed instructions - python3 script.py --help
 
 Description of Input Files 
